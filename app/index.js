@@ -60,24 +60,21 @@ GaffaGenerator.prototype.askFor = function askFor() {
         name: "authorCompanyName",
         default: "Company Name",
         message: "What is your company name? (optional)"
-    },
-    {
-        type: "expand",
+    }
+/*    
+    Havent yet implemented options for css preprocessor.
+    Defaulting to stylus because it's ok.
+    Happy for others to develop the rawlist and request a pull - SM 11/11/13
+
+    ,{
+        type: "rawlist",
         message: "Do you want a css preprocessor?: ",
         name: "preprocessor",
-        choices: [
-          {
-            key: "a",
-            name: "stylus",
-            value: "stylus"
-          },
-          {
-            key: "b",
-            name: "sass",
-            value: "sass"
-          }
-        ]
+        choices: [ "Stylus", "LESS", "SASS", "Medium", "Small", "Micro" ],
+        filter: function( val ) { return val.toLowerCase(); }
+  
     }
+*/    
     ];
 
   this.prompt(prompts, function (props) {
