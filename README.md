@@ -3,6 +3,7 @@ generator-gaffa
 
 [Yeoman](http://yeoman.io/) generator for [Gaffa.js](http://korynunn.github.io/gaffa-todo/)
 
+Assumes you want to use [Stylus](http://learnboost.github.io/stylus/) as your css preprocessor
 ## To install 
 You will need yeoman
 
