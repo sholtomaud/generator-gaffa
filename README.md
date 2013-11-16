@@ -21,12 +21,17 @@ This will install Gaffa.js and dependencies.
 It will also present some command-line options for setting up your app.
 
 ## Developing
-You will develop your application in the /app folder. 
+You will develop your application in the /app/ folder. 
 To preview in a webpage run:
 
     grunt server
 
-This will present a browserified app.
+This will present a browserified app using grunt-browserfiy which watches the following two files for changes:
+
+    app/scripts/app.js
+    app/styles/styles.styl
+
+Develop your app by modifying these two files.
 
 ## License
 
