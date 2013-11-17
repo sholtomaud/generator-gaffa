@@ -25,24 +25,24 @@ module.exports = function (grunt) {
     grunt.initConfig({
         yeoman: yeomanConfig,
         watch: {
+            stylus: {
+                files: ['<%= yeoman.app %>/styles/*.styl' ],
+                tasks: 'stylus'
+            },
+            browserify:{
+                files: ['<%= yeoman.app %>/scripts/app.js' ],
+                tasks: 'browserify'
+            },
             livereload: {
                 options: {
                     livereload: LIVERELOAD_PORT
                 },
                 files: [
                     '<%= yeoman.app %>/*.html',
-                    '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
-                    '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
+                    '{.tmp,<%= yeoman.app %>}/styles/main.css',
+                    '{.tmp,<%= yeoman.app %>}/scripts/{,*/}app.browser.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}'
                 ]
-            },
-            stylus: {
-                files: ['<%= yeoman.app %>/styles/*.styl' ],
-                tasks: 'stylus'
-            },
-            browserify:{
-                files: ['<%= yeoman.app %>/scripts/*.js' ],
-                tasks: 'browserify'
             }
         },
         connect: {
@@ -83,6 +83,17 @@ module.exports = function (grunt) {
                 }
             }
         },
+        stylus: {
+            compile: {
+              options: {
+                compress: true,
+                paths: ['node_modules/grunt-contrib-stylus/node_modules']
+              },
+              files: {
+                'app/styles/main.css': ['app/styles/*.styl']
+              }
+            }
+        },
         open: {
             server: {
                 path: 'http://localhost:<%= connect.options.port %>'
@@ -90,7 +101,7 @@ module.exports = function (grunt) {
         },
         clean: {
             dist: ['.tmp', '<%= yeoman.dist %>/*'],
-            server: '.tmp'
+            server: ['.tmp', '<%= yeoman.app %>/scripts/app.browser.js']
         },
         jshint: {
             options: {
@@ -192,7 +203,7 @@ module.exports = function (grunt) {
         browserify: {
           dist: {
             files: {
-              '<%= yeoman.app %>/scripts/app.browser.js': ['<%= yeoman.app %>/scripts/app.js']
+              '<%= yeoman.app %>/scripts/app.browser.js': ['<%= yeoman.app %>/scripts/*.js']
             }
           }
         },
@@ -212,18 +223,9 @@ module.exports = function (grunt) {
                     ]
                 }
             }
-        },
-        stylus: {
-            compile: {
-              options: {
-                compress: true,
-                paths: ['node_modules/grunt-contrib-stylus/node_modules']
-              },
-              files: {
-                'app/styles/main.css': ['app/styles/*.styl']
-              }
-            }
-        },
+        }
+       
+
     });
 
     grunt.registerTask('createDefaultTemplate', function () {
@@ -238,6 +240,8 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'createDefaultTemplate',
+            'browserify',
+            'stylus',
             'connect:livereload',
             'open',
             'watch'
@@ -272,8 +276,7 @@ module.exports = function (grunt) {
         'build'
     ]);
 
-    grunt.loadNpmTasks('grunt-browserify');
-    //grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-stylus');
-    //grunt.registerTask('compass', ['stylus']);
+    grunt.loadNpmTasks('grunt-browserify');
+    
 };
