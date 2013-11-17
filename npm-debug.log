@@ -1,0 +1,244 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\sholto\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\sholto\\AppData\\Local\\Temp\\npm-3760\\1384698041722-0.3665017690509558\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+13 verbose folder .
+14 info prepublish generator-gaffa@0.0.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\sholto\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+18 verbose lock tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz C:\Users\sholto\AppData\Roaming\npm-cache\197555f2-41722-0-3665017690509558-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+22 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+23 verbose tar unpack C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+24 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+25 verbose lock tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package C:\Users\sholto\AppData\Roaming\npm-cache\02d06329-41722-0-3665017690509558-package.lock
+26 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+27 verbose lock tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz C:\Users\sholto\AppData\Roaming\npm-cache\197555f2-41722-0-3665017690509558-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry LICENSE
+36 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+37 silly gunzTarPerm extractEntry app/index.js
+38 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry app/templates/_views.js
+40 silly gunzTarPerm modified mode [ 'app/templates/_views.js', 438, 420 ]
+41 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+42 silly gunzTarPerm modified mode [ 'app/templates/_Gruntfile.js', 438, 420 ]
+43 silly gunzTarPerm extractEntry app/templates/_app.js
+44 silly gunzTarPerm modified mode [ 'app/templates/_app.js', 438, 420 ]
+45 silly gunzTarPerm extractEntry app/templates/_actions.js
+46 silly gunzTarPerm modified mode [ 'app/templates/_actions.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry app/templates/_behaviours.js
+48 silly gunzTarPerm modified mode [ 'app/templates/_behaviours.js', 438, 420 ]
+49 silly gunzTarPerm extractEntry app/templates/travis.yml
+50 silly gunzTarPerm modified mode [ 'app/templates/travis.yml', 438, 420 ]
+51 silly gunzTarPerm extractEntry app/templates/editorconfig
+52 silly gunzTarPerm modified mode [ 'app/templates/editorconfig', 438, 420 ]
+53 silly gunzTarPerm extractEntry app/templates/_bower.json
+54 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+55 silly gunzTarPerm extractEntry app/templates/jshintrc
+56 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+57 silly gunzTarPerm extractEntry app/templates/_index.html
+58 silly gunzTarPerm modified mode [ 'app/templates/_index.html', 438, 420 ]
+59 silly gunzTarPerm extractEntry app/templates/_package.json
+60 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+61 silly gunzTarPerm extractEntry app/templates/_styles.styl
+62 silly gunzTarPerm modified mode [ 'app/templates/_styles.styl', 438, 420 ]
+63 silly gunzTarPerm extractEntry app/templates/boilerplate/_index.html
+64 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_index.html', 438, 420 ]
+65 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/package.json
+66 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/package.json', 438, 420 ]
+67 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/actions.js
+68 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/actions.js', 438, 420 ]
+69 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/app.js
+70 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/app.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/behaviours.js
+72 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/behaviours.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/views.js
+74 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/views.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry .gitattributes
+76 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+77 silly gunzTarPerm extractEntry .editorconfig
+78 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+79 silly gunzTarPerm extractEntry .jshintrc
+80 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+81 silly gunzTarPerm extractEntry .travis.yml
+82 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+83 silly gunzTarPerm extractEntry test/test-creation.js
+84 silly gunzTarPerm modified mode [ 'test/test-creation.js', 438, 420 ]
+85 silly gunzTarPerm extractEntry test/test-load.js
+86 silly gunzTarPerm modified mode [ 'test/test-load.js', 438, 420 ]
+87 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+88 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+89 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+90 silly lockFile 197555f2-41722-0-3665017690509558-tmp-tgz tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\tmp.tgz
+91 verbose tar pack [ 'C:\\Users\\sholto\\AppData\\Roaming\\npm-cache\\generator-gaffa\\0.0.2\\package.tgz',
+91 verbose tar pack   'C:\\Users\\sholto\\AppData\\Local\\Temp\\npm-3760\\1384698041722-0.3665017690509558\\package' ]
+92 verbose tarball C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+93 verbose folder C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+94 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+95 verbose lock tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package C:\Users\sholto\AppData\Roaming\npm-cache\02d06329-41722-0-3665017690509558-package.lock
+96 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+97 verbose lock tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz C:\Users\sholto\AppData\Roaming\npm-cache\3513f4bb-enerator-gaffa-0-0-2-package-tgz.lock
+98 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+99 silly lockFile 02d06329-41722-0-3665017690509558-package tar://C:\Users\sholto\AppData\Local\Temp\npm-3760\1384698041722-0.3665017690509558\package
+100 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+101 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+102 silly lockFile 04f223cb-he-generator-gaffa-0-0-2-package C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+103 verbose lock C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package C:\Users\sholto\AppData\Roaming\npm-cache\04f223cb-he-generator-gaffa-0-0-2-package.lock
+104 silly lockFile 04f223cb-he-generator-gaffa-0-0-2-package C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+105 silly lockFile 04f223cb-he-generator-gaffa-0-0-2-package C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+106 verbose tar unpack C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+107 silly lockFile 1cd9c3c7-he-generator-gaffa-0-0-2-package tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+108 verbose lock tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package C:\Users\sholto\AppData\Roaming\npm-cache\1cd9c3c7-he-generator-gaffa-0-0-2-package.lock
+109 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+110 verbose lock tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz C:\Users\sholto\AppData\Roaming\npm-cache\3513f4bb-enerator-gaffa-0-0-2-package-tgz.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+114 silly gunzTarPerm extractEntry .npmignore
+115 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+116 silly gunzTarPerm extractEntry README.md
+117 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+118 silly gunzTarPerm extractEntry LICENSE
+119 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+120 silly gunzTarPerm extractEntry .editorconfig
+121 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+122 silly gunzTarPerm extractEntry .gitattributes
+123 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+124 silly gunzTarPerm extractEntry .jshintrc
+125 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+126 silly gunzTarPerm extractEntry .travis.yml
+127 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+128 silly gunzTarPerm extractEntry app/index.js
+129 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry app/templates/_views.js
+131 silly gunzTarPerm modified mode [ 'app/templates/_views.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+133 silly gunzTarPerm modified mode [ 'app/templates/_Gruntfile.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry app/templates/_app.js
+135 silly gunzTarPerm modified mode [ 'app/templates/_app.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry app/templates/_actions.js
+137 silly gunzTarPerm modified mode [ 'app/templates/_actions.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry app/templates/_behaviours.js
+139 silly gunzTarPerm modified mode [ 'app/templates/_behaviours.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry app/templates/travis.yml
+141 silly gunzTarPerm modified mode [ 'app/templates/travis.yml', 438, 420 ]
+142 silly gunzTarPerm extractEntry app/templates/editorconfig
+143 silly gunzTarPerm modified mode [ 'app/templates/editorconfig', 438, 420 ]
+144 silly gunzTarPerm extractEntry app/templates/_bower.json
+145 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+146 silly gunzTarPerm extractEntry app/templates/jshintrc
+147 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+148 silly gunzTarPerm extractEntry app/templates/_index.html
+149 silly gunzTarPerm modified mode [ 'app/templates/_index.html', 438, 420 ]
+150 silly gunzTarPerm extractEntry app/templates/_package.json
+151 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+152 silly gunzTarPerm extractEntry app/templates/_styles.styl
+153 silly gunzTarPerm modified mode [ 'app/templates/_styles.styl', 438, 420 ]
+154 silly gunzTarPerm extractEntry app/templates/boilerplate/_index.html
+155 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_index.html', 438, 420 ]
+156 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/package.json
+157 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/package.json', 438, 420 ]
+158 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/actions.js
+159 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/actions.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/app.js
+161 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/app.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/behaviours.js
+163 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/behaviours.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry app/templates/boilerplate/_scripts/views.js
+165 silly gunzTarPerm modified mode [ 'app/templates/boilerplate/_scripts/views.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry test/test-creation.js
+167 silly gunzTarPerm modified mode [ 'test/test-creation.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry test/test-load.js
+169 silly gunzTarPerm modified mode [ 'test/test-load.js', 438, 420 ]
+170 silly lockFile 1cd9c3c7-he-generator-gaffa-0-0-2-package tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+171 silly lockFile 1cd9c3c7-he-generator-gaffa-0-0-2-package tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package
+172 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+173 silly lockFile 3513f4bb-enerator-gaffa-0-0-2-package-tgz tar://C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+174 verbose chmod C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz 644
+175 silly chown skipping for windows C:\Users\sholto\AppData\Roaming\npm-cache\generator-gaffa\0.0.2\package.tgz
+176 silly lockFile 3a52ce78- .
+177 silly lockFile 3a52ce78- .
+178 silly publish { name: 'generator-gaffa',
+178 silly publish   version: '0.0.2',
+178 silly publish   description: 'A Gaffa generator for Yeoman',
+178 silly publish   keywords: [ 'yeoman-generator', 'Gaffa', 'Gaffa.js' ],
+178 silly publish   homepage: 'https://github.com/shotlom/generator-gaffa',
+178 silly publish   bugs: { url: 'https://github.com/shotlom/generator-gaffa/issues' },
+178 silly publish   author: { name: 'Sholto Maud', url: 'https://github.com/shotlom' },
+178 silly publish   main: 'app/index.js',
+178 silly publish   repository:
+178 silly publish    { type: 'git',
+178 silly publish      url: 'git://github.com/shotlom/generator-gaffa.git' },
+178 silly publish   scripts: { test: 'mocha' },
+178 silly publish   dependencies: { 'yeoman-generator': '~0.13.0' },
+178 silly publish   devDependencies: { mocha: '~1.12.0' },
+178 silly publish   peerDependencies: { yo: '>=1.0.0-rc.1' },
+178 silly publish   engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+178 silly publish   licenses: [ { type: 'MIT' } ],
+178 silly publish   directories: { test: 'test' },
+178 silly publish   license: 'MIT',
+178 silly publish   readme: 'generator-gaffa\r\n===============\r\n\r\n[Yeoman](http://yeoman.io/) generator for [Gaffa.js](http://korynunn.github.io/gaffa-todo/)\r\n\r\nAssumes you want to use [Stylus](http://learnboost.github.io/stylus/) as your css preprocessor\r\n## To install \r\nYou will need yeoman\r\n\r\n    npm install yeoman -g\r\n    npm install generator-gaffa -g\r\n\r\n## To start a new Gaffa application\r\nCreate a new folder for your app\r\n\r\n    mkdir yourApp\r\n    cd yourApp\r\n    yo gaffa\r\n    \r\nThis will install Gaffa.js and dependencies. \r\nIt will also present some command-line options for setting up your app.\r\n\r\n## Developing\r\nYou will develop your application in the /app/ folder. \r\nTo preview in a webpage run:\r\n\r\n    grunt server\r\n\r\nThis will present a browserified app using grunt-browserfiy which watches the following two files for changes:\r\n\r\n    app/scripts/app.js\r\n    app/styles/styles.styl\r\n\r\nDevelop your app by modifying these two files.\r\n\r\n## License\r\n\r\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\r\n',
+178 silly publish   readmeFilename: 'README.md',
+178 silly publish   _id: 'generator-gaffa@0.0.2',
+178 silly publish   dist: { shasum: 'ea9584b23dda62fc3f4294936a604472605c4590' },
+178 silly publish   _from: '.' }
+179 verbose url raw generator-gaffa
+180 verbose url resolving [ 'https://registry.npmjs.org/', './generator-gaffa' ]
+181 verbose url resolved https://registry.npmjs.org/generator-gaffa
+182 info trying registry request attempt 1 at 00:20:41
+183 http PUT https://registry.npmjs.org/generator-gaffa
+184 http 409 https://registry.npmjs.org/generator-gaffa
+185 verbose url raw generator-gaffa
+186 verbose url resolving [ 'https://registry.npmjs.org/', './generator-gaffa' ]
+187 verbose url resolved https://registry.npmjs.org/generator-gaffa
+188 info trying registry request attempt 1 at 00:20:44
+189 http GET https://registry.npmjs.org/generator-gaffa
+190 http 200 https://registry.npmjs.org/generator-gaffa
+191 error publish fail Cannot publish over existing version.
+191 error publish fail Update the 'version' field in package.json and try again.
+191 error publish fail
+191 error publish fail If the previous version was published in error, see:
+191 error publish fail     npm help unpublish
+191 error publish fail
+191 error publish fail To automatically increment version numbers, see:
+191 error publish fail     npm help version
+192 error System Windows_NT 6.1.7601
+193 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+194 error cwd C:\GitHub\generator-gaffa
+195 error node -v v0.10.13
+196 error npm -v 1.3.2
+197 error code EPUBLISHCONFLICT
+198 verbose exit [ 1, true ]
