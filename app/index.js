@@ -94,6 +94,7 @@ GaffaGenerator.prototype.askFor = function askFor() {
 GaffaGenerator.prototype.app = function app() {
   this.mkdir('app');
   this.mkdir('app/scripts');
+  this.mkdir('app/styles');
 
   this.copy('_Gruntfile.js', 'Gruntfile.js');
 
@@ -102,6 +103,7 @@ GaffaGenerator.prototype.app = function app() {
 
   this.template("_index.html", "app/index.html");
   this.template("_app.js", "app/scripts/app.js");
+  this.template("_styles.styl", "app/styles/styles.styl");
   
   this.copy('_actions.js', 'app/scripts/actions.js');
   this.copy('_behaviours.js', 'app/scripts/behaviours.js');
