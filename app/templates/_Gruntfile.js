@@ -31,7 +31,7 @@ module.exports = function (grunt) {
             },
             browserify:{
                 files: ['<%= yeoman.app %>/scripts/app.js' ],
-                tasks: 'browserify'
+                tasks: ['clean:server','browserify']
             },
             livereload: {
                 options: {
