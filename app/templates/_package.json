@@ -26,7 +26,7 @@
     "grunt-contrib-stylus": "~0.9.0",
     "stylus": "~0.40.0",
     "grunt-browserify": "~1.2.11",
-    "gaffa": "~0.17.1",
+    "gaffa": "X.X.X",
     "gaffa-boilerplate":"X.X.X"
   }, 
   "engines": {
